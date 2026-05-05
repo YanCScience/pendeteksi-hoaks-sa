@@ -1,0 +1,111 @@
+{
+  "dataset_summary": {
+    "total_documents": 31332,
+    "label_distribution": {
+      "0": 20951,
+      "1": 10381
+    },
+    "source_distribution": {
+      "cnn": 9630,
+      "kompas": 4729,
+      "tempo": 6592,
+      "turnbackhoax": 10381
+    }
+  },
+  "top_keywords": [
+    "covid",
+    "anak",
+    "china",
+    "corona",
+    "meninggal",
+    "bahasa",
+    "vaksin",
+    "virus",
+    "masjid",
+    "dunia",
+    "cina",
+    "surat",
+    "arab",
+    "muslim",
+    "islam",
+    "ternyata",
+    "viral",
+    "diterjemahkan",
+    "semoga",
+    "selamat"
+  ],
+  "results": [
+    {
+      "scenario": "A",
+      "algorithm": "kmp",
+      "documents": 100,
+      "keywords": 20,
+      "threshold": 1,
+      "execution_time_ms": 37.9182,
+      "peak_memory_kb": 1.05078125,
+      "precision": 0.875,
+      "recall": 0.28,
+      "f1": 0.42424242424242425
+    },
+    {
+      "scenario": "A",
+      "algorithm": "rabin-karp",
+      "documents": 100,
+      "keywords": 20,
+      "threshold": 1,
+      "execution_time_ms": 1398.8531,
+      "peak_memory_kb": 2.353515625,
+      "precision": 0.875,
+      "recall": 0.28,
+      "f1": 0.42424242424242425
+    },
+    {
+      "scenario": "B",
+      "algorithm": "kmp",
+      "documents": 500,
+      "keywords": 50,
+      "threshold": 1,
+      "execution_time_ms": 447.7588,
+      "peak_memory_kb": 4.26953125,
+      "precision": 0.6866666666666666,
+      "recall": 0.412,
+      "f1": 0.5149999999999999
+    },
+    {
+      "scenario": "B",
+      "algorithm": "rabin-karp",
+      "documents": 500,
+      "keywords": 50,
+      "threshold": 1,
+      "execution_time_ms": 17242.4403,
+      "peak_memory_kb": 7.4453125,
+      "precision": 0.6866666666666666,
+      "recall": 0.412,
+      "f1": 0.5149999999999999
+    },
+    {
+      "scenario": "C",
+      "algorithm": "kmp",
+      "documents": 1000,
+      "keywords": 100,
+      "threshold": 1,
+      "execution_time_ms": 1903.2856,
+      "peak_memory_kb": 8.91015625,
+      "precision": 0.6124497991967871,
+      "recall": 0.61,
+      "f1": 0.6112224448897795
+    },
+    {
+      "scenario": "C",
+      "algorithm": "rabin-karp",
+      "documents": 1000,
+      "keywords": 100,
+      "threshold": 1,
+      "execution_time_ms": 68103.4775,
+      "peak_memory_kb": 11.9765625,
+      "precision": 0.6124497991967871,
+      "recall": 0.61,
+      "f1": 0.6112224448897795
+    }
+  ]
+}
